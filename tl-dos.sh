@@ -1,35 +1,28 @@
 
-blue='\033[34;1m'
-green='\033[32;1m'
-purple='\033[35;1m'
-cyan='\033[36;1m'
-red='\033[31;1m'
-white='\033[37;1m'
-yellow='\033[33;1m'
 
 clear
 xdg-open https://youtube.com/channel/UCJcJ5ZARYowKSZzgPWSxpcQ
-echo $green
+echo
 echo -e " _____ ___   ___  _          ____  ____   ___  ____  "
 echo -e "|_   _/ _ \ / _ \| |        |  _ \|  _ \ / _ \/ ___| "
 echo -e "  | || | | | | | | |   _____| | | | | | | | | \___ \ "
 echo -e "  | || |_| | |_| | |__|_____| |_| | |_| | |_| |___) |"
 echo -e "  |_| \___/ \___/|_____|    |____/|____/ \___/|____/ "
-echo $red
+echo
 sleep 2
 echo -e "# AUTHOR : MR VIRUS SPM"
 echo -e "# SCRIPT : TOOL DDOS"
 echo -e "====================================================="
 echo
 sleep 2
-echo $blue
+echo
 echo -e "1). DDOS ATACK"
 echo -e "2). DDOS HAMER"
 echo -e "3). DDOS LUCITA"
 echo -e "4). DDOS DROID"
 echo -e "5). DDOS BLACKCYC"
 echo -e "6). keluar"
-echo $yellow
+echo
 sleep 2
 read -p "NOMOR ===> " sprin                                                                                                                   if [ $sprin == "1" ]
 then
