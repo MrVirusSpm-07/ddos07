@@ -24,7 +24,8 @@ echo -e "5). DDOS BLACKCYC"
 echo -e "6). keluar"
 echo
 sleep 2
-read -p "NOMOR ===> " sprin                                                                                                                   if [ $sprin == "1" ]
+read -p "NOMOR ===> " sprin
+if [ $sprin == "1" ]
 then
 clear
    cd $HOME
@@ -56,8 +57,10 @@ clear
    pkg install git -y
    pkg install python -y
    git clone https://github.com/zlucifer/lucita_ddos
-   cd lucita_ddos                                                                                                                                python pukul.py
-fi                                                                                                                                            if [ $sprin == "4" ]
+   cd lucita_ddos
+   python pukul.py
+fi
+if [ $sprin == "4" ]
 then
 clear
    cd $HOME
