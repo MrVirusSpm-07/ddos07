@@ -28,63 +28,63 @@ read -p "NOMOR ===> " sprin
 if [ $sprin == "1" ]
 then
 clear
-   cd $HOME
-   pkg update && pkg upgrade -y
-   pkg install python -y
-   pkg install figlet -y
-   pkg install git -y
-   git clone https://github.com/MrVirusSpm-07/ddos-attack
-   cd ddos-attack
-   python attack-ddos.py
+    cd $HOME
+    pkg update && pkg upgrade -y
+    pkg install python -y
+    pkg install figlet -y
+    pkg install git -y
+    git clone https://github.com/MrVirusSpm-07/ddos-attack
+    cd ddos-attack
+    python attack-ddos.py
 fi
 if [ $sprin == "2" ]
 then
 clear
-   cd $HOME
-   pkg update -y
-   pkg upgrade -y
-   pkg install python -y
-   pkg install git -y
-   git clone https://github.com/cyweb/hammer
-   cd hammer
+    cd $HOME
+    pkg update -y
+    pkg upgrade -y
+    pkg install python -y
+    pkg install git -y
+    git clone https://github.com/cyweb/hammer
+    cd hammer
    python hammer.py
 fi
 if [ $sprin == "3" ]
 then
 clear
-   cd $HOME
-   apt update && apt upgrade -y
-   pkg install git -y
-   pkg install python -y
-   git clone https://github.com/zlucifer/lucita_ddos
-   cd lucita_ddos
-   python pukul.py
+    cd $HOME
+    apt update && apt upgrade -y
+    pkg install git -y
+    pkg install python -y
+    git clone https://github.com/zlucifer/lucita_ddos
+    cd lucita_ddos
+    python pukul.py
 fi
 if [ $sprin == "4" ]
 then
 clear
-   cd $HOME
-   apt update && apt upgrade -y
-   apt install git toilet -y
-   apt install python -y
-   apt install python2 -y
-   git clone https://github.com/banghyuu/ddosWD
-   cd ddosWD
-   sh Ddos.sh
+    cd $HOME
+    apt update && apt upgrade -y
+    apt install git toilet -y
+    apt install python -y
+    apt install python2 -y
+    git clone https://github.com/banghyuu/ddosWD
+    cd ddosWD
+    sh Ddos.sh
 fi
 if [ $sprin == "5" ]
 then
 clear
-   cd $HOME
-   pkg update && pkg upgrade -y
-   pkg install figlet -y
-   pkg install git -y
-   git clone https://github.com/BlackCyberAnonim/B-ATTACKING
-   cd B-ATTACKING
-   sh install.Sh
+    cd $HOME
+    pkg update && pkg upgrade -y
+    pkg install figlet -y
+    pkg install git -y
+    git clone https://github.com/BlackCyberAnonim/B-ATTACKING
+    cd B-ATTACKING
+    sh install.Sh
 fi
 if [ $sprin == "6" ]
 then
 clear
-   exit 
+    exit 
 fi
